@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "=== GitHub 推送向导 ==="
+echo ""
+echo "步骤 1: 登录 GitHub"
+echo "运行: gh auth login"
+echo "选择: GitHub.com → HTTPS → 浏览器登录"
+echo ""
+echo "步骤 2: 创建仓库并推送"
+echo "运行以下命令:"
+echo ""
+echo "gh repo create icloud-photos-migration --public --source=. --push --description '将 iCloud 照片和视频安全迁移到 NAS 的工具'"
+echo ""
+echo "完成后仓库地址: https://github.com/YOUR_USERNAME/icloud-photos-migration"
